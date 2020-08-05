@@ -10,7 +10,6 @@
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/honzcha/proffy-web?color=774DD6">
 
-
   <a href="https://github.com/honzcha/proffy-web/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/honzcha/proffy-web?color=774DD6">
   </a> 
@@ -31,21 +30,23 @@
 - [🐛 Issues](#-issues)
 - [📕 License](#-license)
 
-
-
 # ⛏️ Built Using: Technologies
+
 This project was made using the follow technologies:
+
 <ul>
   <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
   <li><a href="https://reactnative.dev/">React Native</a></li>
   <li><a href="https://expo.io/">Expo</a></li>
   <li><a href="https://expressjs.com/en/api.html#express">Express</a></li>
+  <li><a href="http://knexjs.org/">Knex</a></li>
+  <li><a href="https://www.sqlite.org">SQLite</a></li>
 </ul>
 
 # 🚀 Features
 
-* Website to sign up teachers and students.
-* App to connect teachers and students.
+- Website to sign up teachers and students.
+- App to connect teachers and students.
 
 # 👷 How to run
 
@@ -64,6 +65,7 @@ $ yarn install
 # Run Aplication
 $ yarn start
 ```
+
 Access API at http://localhost:3333/
 
 ### 💻 Run Web Project
@@ -81,6 +83,7 @@ $ yarn install
 # Run Aplication
 $ yarn start
 ```
+
 Go to http://localhost:3000/ to see the result.
 
 # 🐛 Issues
@@ -93,6 +96,5 @@ Released in 2020 📕 License
 
 Made with love by [Lucas](https://github.com/honzcha) 🚀.
 This project is under the [MIT license](https://github.com/honzcha/proffy-web/master/LICENSE).
-
 
 Give a ⭐️ if this project helped you!
