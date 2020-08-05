@@ -18,7 +18,7 @@
 
 </p>
 
-> 🚀 Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+> Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
 
 # 📌 Table of Contents
 
