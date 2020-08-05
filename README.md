@@ -23,8 +23,6 @@
 # 📌 Table of Contents
 
 - [📌 Table of Contents](#-table-of-contents)
-    - [Web Screenshot](#web-screenshot)
-    - [Mobile Screenshot](#mobile-screenshot)
 - [⛏️ Built Using: Technologies](#️-built-using-technologies)
 - [🚀 Features](#-features)
 - [👷 How to run](#-how-to-run)
@@ -51,7 +49,7 @@
     </a>
 </p>
 
-### Web Screenshot
+<!-- ### Web Screenshot
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/web-landing.png" width="400px">
    <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/web-list.png" width="400px">
@@ -59,7 +57,7 @@
 
 ### Mobile Screenshot
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-</div>
+</div> -->
 
 # ⛏️ Built Using: Technologies
 This project was made using the follow technologies:
