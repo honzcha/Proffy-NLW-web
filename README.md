@@ -29,7 +29,6 @@
     - [💻 Run Web Project](#-run-web-project)
 - [🐛 Issues](#-issues)
 - [📕 License](#-license)
-- [<<<<<<< HEAD](#-head)
 
 # ⛏️ Built Using: Technologies
 
@@ -98,7 +97,4 @@ Released in 2020 📕 License
 Made with love by [Lucas](https://github.com/honzcha) 🚀.
 This project is under the [MIT license](https://github.com/honzcha/proffy-web/master/LICENSE).
 
-# <<<<<<< HEAD
-
-> > > > > > > ee6729d8454764f248d68b61448716b73079339c
-> > > > > > > Give a ⭐️ if this project helped you!
+Give a ⭐️ if this project helped you!
