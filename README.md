@@ -72,7 +72,7 @@ Access API at http://localhost:3333/
 
 ```bash
 # Clone Web Repository
-$ git clone https://github.com/honzcha/proffy-api.git
+$ git clone https://github.com/honzcha/proffy-web.git
 
 # Go to web folder
 $ cd proffy-web
