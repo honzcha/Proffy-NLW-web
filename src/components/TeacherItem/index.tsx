@@ -2,41 +2,58 @@ import React from "react";
 
 import "./styles.css";
 import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
+import api from "../../services/api";
 
-function TeacherItem() {
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+  function createNewConnection() {
+    api.post("connections", {
+      user_id: teacher.id,
+    });
+  }
+
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="https://randomuser.me/api/portraits/men/15.jpg"
-          alt="Profile1"
-        />
+        <img src={teacher.avatar} alt={teacher.name} />
         <div>
-          <strong>Professor Name1</strong>
-          <span>Subject</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
 
-      <p>
-        Master many with we gloated purple thy maiden, god bust followed burden
-        blessed at friends floor me, and suddenly lattice.
-        <br />
-        <br />
-        Thy nor yet sins climes know to given, it to.
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Price/Hour
-          <strong>$20.00</strong>
+          <strong>$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a
+          // eslint-disable-next-line react/jsx-no-target-blank
+          target="_blank"
+          onClick={createNewConnection}
+          href={`https://wa.me/${teacher.whatsapp}`}
+        >
           <img src={whatsappIcon} alt="Whatsapp" />
           Get in touch
-        </button>
+        </a>
       </footer>
     </article>
   );
-}
+};
 
 export default TeacherItem;
